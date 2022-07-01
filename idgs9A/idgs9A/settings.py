@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'videogames.apps.VideogamesConfig',
     'peliculasSVM.apps.PeliculassvmConfig', 
     'Musica.apps.MusicaConfig',
@@ -50,6 +51,9 @@ INSTALLED_APPS = [
     'anime'
     'seriesByRVY.apps.SeriesbyrvyConfig',
     'equipoJWN.apps.EquipojwnConfig'
+=======
+    'books'
+>>>>>>> master
 ]
 
 MIDDLEWARE = [

@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
+<<<<<<< HEAD
 from django.urls import path, include
+=======
+from django.urls import include, path
+>>>>>>> master
 from core import views
 
 from . import settings
@@ -23,6 +27,7 @@ from . import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+<<<<<<< HEAD
     path('Musica/', include ('Musica.urls')),
     path('videogames/', include('videogames.urls')),
     path('peliculasSVM/', include('peliculasSVM.urls')),
@@ -31,6 +36,9 @@ urlpatterns = [
     path('equipoJWN/', include('equipoJWN.urls')),
     path('books/', include('books.urls')),
 
+=======
+    path('books/', include('books.urls')),
+>>>>>>> master
 ]
 
 if settings.DEBUG:
